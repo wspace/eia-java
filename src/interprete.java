@@ -19,7 +19,7 @@ public class interprete {
 		linea(cadena);
 	}
 
-	//Para toar cada lÌnea y enviar al comando con el cual comienza
+	//Para toar cada l√≠nea y enviar al comando con el cual comienza
 	private static void linea(String cadena) {
 		String c = null;
 		int l = 0;
@@ -41,7 +41,7 @@ public class interprete {
 					System.out.print(as.get(n-1).toString());
 				}
 				cadena=cadena.substring(3,cadena.length());
-				// llamar switch dem·s comandos
+				// llamar switch dem√°s comandos
 				i=0;
 			}
 			//i=0;
