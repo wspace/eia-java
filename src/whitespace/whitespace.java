@@ -13,7 +13,6 @@ public class whitespace {
 	static int l = -1;
 
 	private static void evaluar() {
-		// TODO Auto-generated method stub
 		int asc = 0;
 		int i = 0;
 		while (!li.isEmpty()) {
@@ -41,11 +40,9 @@ public class whitespace {
 			}
 			i++;
 		}
-
 	}
 
 	private static void tabulador() {
-		// TODO Auto-generated method stub
 		for (int i = 0; i < temp.size() - 1; i++) {
 			if (temp.get(i) == 32 && temp.get(i + 1) == 32) {
 				if (l != -1) {
@@ -56,7 +53,6 @@ public class whitespace {
 	}
 
 	private static Character ascii() {
-		// TODO Auto-generated method stub
 		int asc = 0;
 		for (int i = 0; i < temp.size() - 1; i++) {
 			if (temp.get(0) == 32) {
